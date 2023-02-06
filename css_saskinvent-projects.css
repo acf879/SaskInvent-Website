@@ -2,7 +2,6 @@ body {
     
     background-color: #AAAAAA;
 
-
     margin-top: 50;
     margin-bottom: 50;
     margin-left: 50;
@@ -82,7 +81,7 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 5px;
-    transform: translate(0%, 1%);
+    transform: translate(5%, 1%);
 }
 
 .card-2 {
@@ -106,7 +105,42 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 5px;
-    transform: translate(220%, 1%);
+    transform: translate(215%, 1%);
+}
+
+.card-4 {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    transform: translate(320%, 1%);
+}
+
+.card-5 {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    transform: translate(425%, 1%);
+}
+.card-6 {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    transform: translate(530%, 1%);
 }
 
 .project-title {
@@ -165,6 +199,24 @@ body {
 }
 
 .card-3:hover .face-2 {
+    height: 60px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    display:none;
+}
+
+.card-4:hover .face-2 {
+    height: 60px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    display:none;
+}
+
+.card-5:hover .face-2 {
+    height: 60px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    display:none;
+}
+
+.card-6:hover .face-2 {
     height: 60px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     display:none;
