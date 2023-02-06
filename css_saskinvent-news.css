@@ -41,7 +41,7 @@ body {
     overflow: auto;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 99%;
     border-radius: 14px;
     transform: translate(0%, -10%);
 }
